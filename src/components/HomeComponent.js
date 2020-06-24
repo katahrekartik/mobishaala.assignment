@@ -4,38 +4,40 @@ import {Link} from 'react-router-dom';
 
 
 
-
+//Component retrus the header carousel
 const HeaderSection = () =>{
     return (
         <div className="container-fluid main-header">
+            {/* wrapAround will be use to display previous and next image */}
+            <div class="header-carousel"  data-flickity='{ "wrapAround": true , "autoPlay":true}'>
+            <div class="header-carousel-cell">
+                <img
+                    alt=""
+                    className="header-image"
+                    src="https://mobishaala-assets.s3.amazonaws.com/media/institute/60e05ca6-db8e-4e4a-96ac-93b7ab1f50bf/banner/image1567695708811.jpg"
+                />
+            </div>
+            <div class="header-carousel-cell">
+                <img  className="header-image" src="https://mobishaala-assets.s3.amazonaws.com/media/institute/60e05ca6-db8e-4e4a-96ac-93b7ab1f50bf/banner/image1559647354580.jpg" alt=""/>
 
-        <div class="header-carousel"  data-flickity='{ "wrapAround": true , "autoPlay":true}'>
-        <div class="header-carousel-cell">
-            <img
-                alt=""
-                className="header-image"
-                src="https://mobishaala-assets.s3.amazonaws.com/media/institute/60e05ca6-db8e-4e4a-96ac-93b7ab1f50bf/banner/image1567695708811.jpg"
-            />
-        </div>
-        <div class="header-carousel-cell">
-            <img  className="header-image" src="https://mobishaala-assets.s3.amazonaws.com/media/institute/60e05ca6-db8e-4e4a-96ac-93b7ab1f50bf/banner/image1559647354580.jpg" alt=""/>
+            </div>
+            <div class="header-carousel-cell">
+                <img  className="header-image" src="https://mobishaala-assets.s3.amazonaws.com/media/institute/60e05ca6-db8e-4e4a-96ac-93b7ab1f50bf/banner/image1559640610634.jpg" alt=""/>
 
-        </div>
-        <div class="header-carousel-cell">
-            <img  className="header-image" src="https://mobishaala-assets.s3.amazonaws.com/media/institute/60e05ca6-db8e-4e4a-96ac-93b7ab1f50bf/banner/image1559640610634.jpg" alt=""/>
-
-        </div>
-        </div>
+            </div>
+            </div>
         </div>
 
     );
 }
 
+//Component returns book section
 const BooksSection = () =>{
     return(
         <div className="container-fluid books-section">
             <div className="container">
             <div className="row">
+                {/* Create two columns one having heading text and another having a group carousel */}
                 <div className="col-12 col-md-2 books-section-heading">
                     <h1>Featured Books</h1>
                     <p>Prabha Publications</p>
@@ -65,14 +67,14 @@ const BooksSection = () =>{
                     </div>
                 </div>
             </div>
-            
-
                 <center><Link to="/books"><a className="box-btn button-mobile">Explore Books</a></Link></center>
             </div>
         </div>
     );
 }
 
+
+// Component returns course section
 const CoursesSection = () =>{
     return(
         <div className="container courses-section">
@@ -102,7 +104,7 @@ const CoursesSection = () =>{
                                 <h5>Name</h5>
                             </div>
                             <div className="join-button">
-                                <Button className="button" variant="primary" style={{}}>Join now</Button>
+                                <Link to="/join"><Button className="button" variant="primary">Join now</Button></Link>
                             </div>
                         </div>
                     </Card.Body>
@@ -126,7 +128,7 @@ const CoursesSection = () =>{
                                 <h5>Name</h5>
                             </div>
                             <div className="join-button">
-                                <Button className="button" variant="primary" style={{}}>Join now</Button>
+                                <Link to="/join"><Button className="button" variant="primary">Join now</Button></Link>
                             </div>
                         </div>
                     </Card.Body>
@@ -150,7 +152,7 @@ const CoursesSection = () =>{
                                 <h5>Name</h5>
                             </div>
                             <div className="join-button">
-                                <Button className="button" variant="primary">Join now</Button>
+                                <Link to="/join"><Button className="button" variant="primary">Join now</Button></Link>
                             </div>
                         </div>
                     </Card.Body>
@@ -163,6 +165,8 @@ const CoursesSection = () =>{
     );
 }
 
+
+// /Component returns Video section
 const VideosSection = () => {
     return (
         <div className="container-fluid video-section">
@@ -219,6 +223,7 @@ function Home(){
 
         return(
             <div>
+                {/* include all the components in a home component  */}
                 <HeaderSection/>
                 <BooksSection/>
                 <CoursesSection/>
@@ -227,4 +232,5 @@ function Home(){
         );
 }
 
+// export home component
 export default Home;

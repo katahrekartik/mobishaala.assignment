@@ -1,6 +1,5 @@
 import React from 'react';
 import {Button,Card} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 
 
 const BreadCrumb = ()=> {
@@ -27,7 +26,7 @@ function Course(props) {
         <React.Fragment>
         <BreadCrumb/>
         <div className="container courses-section">
-         
+        {/* Create 3 coumns in each rows */}
         <div className="row">
             <div className="col-12 col-md-4">
                 <Card>

@@ -2,12 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-
-
 function Footer(props) {
     return(
     <div className="container-fluid footer">
         <div className="container">
+            {/* create two coumns  */}
             <div className="row">
                 <div className="col-12 col-md-7 footer-about">
                     <span style={{display:"flex"}}>

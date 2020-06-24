@@ -1,5 +1,6 @@
+// This class component will be use to manage the states for all other components and the other components 
+// will work as a presentational component which are implemented using function components
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
@@ -17,22 +18,18 @@ class Main extends Component {
  
 
   render() {
-    const HomePage = () => {
-        return(
-            <Home 
-          />
-        );
-      }
+  
     
     return (
         <div>
         <Header/>
         <Switch>
-            <Route path='/home'  component={HomePage} />
+            <Route path='/home'  component={Home} />
             <Route exact path='/contactus' component={Contact} />} />
             <Route exact path='/join' component={Join} />} />
             <Route exact path='/books' component={Book} />} />
             <Route exact path='/courses' component={Course} />} />
+            {/* Default rederect to home */}
             <Redirect to="/home" />
         </Switch>
         <Footer/>
