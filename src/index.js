@@ -1,6 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'flickity/dist/flickity.min.css';
+import 'font-awesome/css/font-awesome.css';
+import $ from 'jquery';
+import 'flickity/dist/flickity.pkgd.min.js';
+
+
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
