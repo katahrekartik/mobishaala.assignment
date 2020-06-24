@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa484f11d1818bd0ea47295514614d6d",
+    "revision": "9bbbd7c19e9f6c381e18d9a736d4d784",
     "url": "/mobishaala.assignment/index.html"
   },
   {
-    "revision": "1f9e4bb42e1ed4a4b06f",
+    "revision": "c9966f6130b2e695dbd0",
     "url": "/mobishaala.assignment/static/css/2.81f5d3e0.chunk.css"
   },
   {
-    "revision": "a3439634226cab39f4f1",
-    "url": "/mobishaala.assignment/static/css/main.b189e472.chunk.css"
+    "revision": "30969260bbad0e4db235",
+    "url": "/mobishaala.assignment/static/css/main.cdbb0530.chunk.css"
   },
   {
-    "revision": "1f9e4bb42e1ed4a4b06f",
-    "url": "/mobishaala.assignment/static/js/2.ca7824a8.chunk.js"
+    "revision": "c9966f6130b2e695dbd0",
+    "url": "/mobishaala.assignment/static/js/2.4347e58a.chunk.js"
   },
   {
     "revision": "4386012a6d334684338618496b7aac20",
-    "url": "/mobishaala.assignment/static/js/2.ca7824a8.chunk.js.LICENSE.txt"
+    "url": "/mobishaala.assignment/static/js/2.4347e58a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a3439634226cab39f4f1",
-    "url": "/mobishaala.assignment/static/js/main.1af24dbf.chunk.js"
+    "revision": "30969260bbad0e4db235",
+    "url": "/mobishaala.assignment/static/js/main.9e0d6886.chunk.js"
   },
   {
     "revision": "f65db689e0f230fc398b",
