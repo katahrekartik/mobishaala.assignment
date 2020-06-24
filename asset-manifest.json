@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/mobishaala.assignment/static/css/main.de9014ec.chunk.css",
-    "main.js": "/mobishaala.assignment/static/js/main.8f4bd111.chunk.js",
-    "main.js.map": "/mobishaala.assignment/static/js/main.8f4bd111.chunk.js.map",
+    "main.js": "/mobishaala.assignment/static/js/main.8888f51a.chunk.js",
+    "main.js.map": "/mobishaala.assignment/static/js/main.8888f51a.chunk.js.map",
     "runtime-main.js": "/mobishaala.assignment/static/js/runtime-main.0aebaede.js",
     "runtime-main.js.map": "/mobishaala.assignment/static/js/runtime-main.0aebaede.js.map",
-    "static/css/2.81f5d3e0.chunk.css": "/mobishaala.assignment/static/css/2.81f5d3e0.chunk.css",
-    "static/js/2.4347e58a.chunk.js": "/mobishaala.assignment/static/js/2.4347e58a.chunk.js",
-    "static/js/2.4347e58a.chunk.js.map": "/mobishaala.assignment/static/js/2.4347e58a.chunk.js.map",
+    "static/css/2.9b807723.chunk.css": "/mobishaala.assignment/static/css/2.9b807723.chunk.css",
+    "static/js/2.9aeea74e.chunk.js": "/mobishaala.assignment/static/js/2.9aeea74e.chunk.js",
+    "static/js/2.9aeea74e.chunk.js.map": "/mobishaala.assignment/static/js/2.9aeea74e.chunk.js.map",
     "index.html": "/mobishaala.assignment/index.html",
-    "precache-manifest.70383357b1b0203c037f9b93d1213810.js": "/mobishaala.assignment/precache-manifest.70383357b1b0203c037f9b93d1213810.js",
+    "precache-manifest.97c3847fed2b7e44a5e8df606c34c191.js": "/mobishaala.assignment/precache-manifest.97c3847fed2b7e44a5e8df606c34c191.js",
     "service-worker.js": "/mobishaala.assignment/service-worker.js",
-    "static/css/2.81f5d3e0.chunk.css.map": "/mobishaala.assignment/static/css/2.81f5d3e0.chunk.css.map",
+    "static/css/2.9b807723.chunk.css.map": "/mobishaala.assignment/static/css/2.9b807723.chunk.css.map",
     "static/css/main.de9014ec.chunk.css.map": "/mobishaala.assignment/static/css/main.de9014ec.chunk.css.map",
-    "static/js/2.4347e58a.chunk.js.LICENSE.txt": "/mobishaala.assignment/static/js/2.4347e58a.chunk.js.LICENSE.txt",
+    "static/js/2.9aeea74e.chunk.js.LICENSE.txt": "/mobishaala.assignment/static/js/2.9aeea74e.chunk.js.LICENSE.txt",
     "static/media/App.css": "/mobishaala.assignment/static/media/education.a3a0c9d1.png",
     "static/media/font-awesome.css": "/mobishaala.assignment/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.0aebaede.js",
-    "static/css/2.81f5d3e0.chunk.css",
-    "static/js/2.4347e58a.chunk.js",
+    "static/css/2.9b807723.chunk.css",
+    "static/js/2.9aeea74e.chunk.js",
     "static/css/main.de9014ec.chunk.css",
-    "static/js/main.8f4bd111.chunk.js"
+    "static/js/main.8888f51a.chunk.js"
   ]
 }
